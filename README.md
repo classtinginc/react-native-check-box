@@ -11,11 +11,16 @@ Checkbox component for react native, it works on iOS and Android.
 
 ## Content
 
+- [Changelog For Classting](#changelog-for-classting)
 - [Installation](#installation)
 - [Demo](#demo)
 - [Getting started](#getting-started)
 - [API](#api)
 - [Contribution](#contribution)
+
+## Changelog For Classting
+
+- deprecated-react-native-prop-types를 사용해 RN 0.68에서 deprecated된 ViewPropTypes를 대체
 
 ## Changes
 
