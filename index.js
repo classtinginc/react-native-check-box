@@ -14,11 +14,11 @@ import {
     Image,
     Text,
     TouchableHighlight,
-    ViewPropTypes as RNViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
+import DeprecatedPropTypes from 'deprecated-react-native-prop-types'
 
-const ViewPropTypes = RNViewPropTypes || View.propTypes;
+const ViewPropTypes = DeprecatedPropTypes;
 
 export default class CheckBox extends Component {
     constructor(props) {
