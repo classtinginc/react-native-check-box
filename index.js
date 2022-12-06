@@ -18,15 +18,13 @@ import {
 import PropTypes from 'prop-types';
 import DeprecatedPropTypes from 'deprecated-react-native-prop-types'
 
-const ViewPropTypes = DeprecatedPropTypes;
-
 export default class CheckBox extends Component {
     constructor(props) {
         super(props);
     }
 
     static propTypes = {
-        ...ViewPropTypes,
+        style: DeprecatedPropTypes.ViewPropTypes.style,
         leftText: PropTypes.string,
         leftTextView: PropTypes.element,
         rightText: PropTypes.string,
